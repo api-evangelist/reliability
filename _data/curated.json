@@ -1,9 +1,73 @@
 [
 	{
+		"curated_id": "123TzeTQ7Yb0X116ukaKcUfhyClehOEdYMMewNFV7EfPDIbsevznXZp2QBEFQ2AUPOpPzoOHbbj4hd2C6kGL2fWtdQ117117",
+		"item_date": "2016-09-24 00:00:00",
+		"title": "How Dropbox Scaled and Secured their API",
+		"url": "http://www.programmableweb.com/news/how-dropbox-scaled-and-secured-their-api/elsewhere-web/2016/09/24",
+		"domain": "www.programmableweb.com",
+		"image": ""
+	},
+	{
+		"curated_id": "cNPAL116likaTNwCTiGVPhhPPa1hc0rdrUBdKhAuQFQWNEHoJ3Jb1rEi12315FcXBdrQM2UgTpH0BgZNWKI8ulXfSQ117117",
+		"item_date": "2016-09-23 00:00:00",
+		"title": "StockTwits Scheduled System Maintenance September 24 2016",
+		"url": "http://blog.stocktwits.com/stocktwits-scheduled-system-maintenance-september-24-2016/",
+		"domain": "blog.stocktwits.com",
+		"image": ""
+	},
+	{
+		"curated_id": "VDiCCpOpQ85Fv8TSPraVr0ENX116FX4eIuHredWUaGubf4nrHnVfismvQG3jOCfnL7O123jZWlNhgrpYj2chgL8MKw117117",
+		"item_date": "2016-09-19 00:00:00",
+		"title": "Unexpected outage for some Xero Customers Resolved",
+		"url": "http://www.xero.com/blog/2016/09/unexpected-outage-for-xero-customers/",
+		"domain": "www.xero.com",
+		"image": ""
+	},
+	{
+		"curated_id": "dA45xYBsnEkbRx8usdJtxXvkC0wSp1Ct87m51I116tH2ralhTDzRhZw1zEdjOPgCAzzen2vIGA14ff93FmRvBiDg117117",
+		"item_date": "2016-09-21 00:00:00",
+		"title": "High availability thanks to services",
+		"url": "https://blogs.siemens.com/competitive-industries/stories/33366/",
+		"domain": "blogs.siemens.com",
+		"image": ""
+	},
+	{
+		"curated_id": "T6D5g4DpYuqyoxGhMKzY2123BawiV116zxQYBWc3gV123sRj7DIdP6UNGiyRMqepdwURFksULrdKl2q123JwZkf6uWa4Ew117117",
+		"item_date": "2016-09-17 01:48:31",
+		"title": "Tweet API is going to be gently borked for a few minutes as I do some server maintenance Go to bed",
+		"url": "https://twitter.com/Pinboard/statuses/777066694720131072",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "Mrwn7BpeMyZqPegMayG8YzlrFf9SV78iK3PDoOgaRVOZmFSkkMsgBzeliqOVBlIRK9qa5qBcUZGtCOU116TStyCg117117",
+		"item_date": "2016-09-07 00:00:00",
+		"title": "0511 Downtime Notice and Notes  News and Announcements",
+		"url": "http://forum.worldofwarships.com/index.php",
+		"domain": "forum.worldofwarships.com",
+		"image": ""
+	},
+	{
+		"curated_id": "jzOlGENneEvWrPdUXDmHy5lIOfBlLDW8H8EWveka8wi2UvwDrBf90tiiFaxCumczUFMOxvGqFcYQ7xX0SeN3eQ117117",
+		"item_date": "2016-08-30 06:11:34",
+		"title": "Tweet We are investigating an issue with our test results datastore Please follow RunscopeStatus or httpstcow6LnMxCcoJ for updates",
+		"url": "https://twitter.com/Runscope/statuses/770609910308478976",
+		"domain": "twitter.com",
+		"image": ""
+	},
+	{
+		"curated_id": "N8KTtA7fcIJ33PIHhldP660EESijWyXluJrBSCD74Qyu3T1lN1238ipJX116yHH116E3T1165HL85Utprsbw2upSp0xBXQ117117",
+		"item_date": "2016-08-11 00:00:00",
+		"title": "New  AWS Application Load Balancer",
+		"url": "https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/",
+		"domain": "aws.amazon.com",
+		"image": ""
+	},
+	{
 		"curated_id": "uaWfVA116rlod11632hrYte5ozi7xOwNpYsYZoImELQo12tHwopHNN7AczRGKZoEcs7WHkgdhUJo5t7z4oPwbi5PIw117117",
 		"item_date": "2016-08-08 00:00:00",
 		"title": "A Practical Guide to SLAs",
-		"url": "https://dzone.com/articles/a-practical-guide-to-slas?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+dzone",
+		"url": "https://dzone.com/articles/a-practical-guide-to-slas",
 		"domain": "dzone.com",
 		"image": ""
 	},
@@ -11,8 +75,8 @@
 		"curated_id": "UHtzgZg8pNxUZNI9cdvPQW82YiYHXYWqRa72uBqgpVrqg1CksBFaX123p0jN1235A1SHNXVoq116eEgaGIDTYblhw3Bw117117",
 		"item_date": "2016-08-10 00:00:00",
 		"title": "For SLAs theres no such thing as 100 Uptime 8211 only 100 Transparency",
-		"url": "http://feedproxy.google.com/~r/AlgoliaBlog/~3/U283ERUG2_8/",
-		"domain": "feedproxy.google.com",
+		"url": "https://blog.algolia.com/for-slas-theres-no-such-thing-as-100-uptime-only-100-transparency/",
+		"domain": "blog.algolia.com",
 		"image": ""
 	},
 	{
