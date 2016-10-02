@@ -1,5 +1,13 @@
 [
 	{
+		"curated_id": "116dTLGfYaCSD61239to96PN57oOSB93861PBq7FsUp6LK8ZINpY1V74B8BX116OsQhLROM11667IEI8wdOnbZ123mxDvFNg117117",
+		"item_date": "2016-09-30 00:00:00",
+		"title": "Fatal versus nonfatal errors in the IMA SDKs",
+		"url": "http://googleadsdeveloper.blogspot.com/2016/09/fatal-versus-non-fatal-errors-in-ima.html",
+		"domain": "googleadsdeveloper.blogspot.com",
+		"image": ""
+	},
+	{
 		"curated_id": "123TzeTQ7Yb0X116ukaKcUfhyClehOEdYMMewNFV7EfPDIbsevznXZp2QBEFQ2AUPOpPzoOHbbj4hd2C6kGL2fWtdQ117117",
 		"item_date": "2016-09-24 00:00:00",
 		"title": "How Dropbox Scaled and Secured their API",
