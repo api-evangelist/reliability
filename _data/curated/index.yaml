@@ -1,76 +1,4 @@
 ---
-- curated_id: 2f89d55a2b5c00f5abeb64454da6e760
-  item_date: "2013-01-23 17:39:59"
-  title: Twitter experiences connectivity issues on Inauguration Day
-  url: https://gigaom.com/2013/01/21/twitter-experiences-connectivity-issues-on-inauguration-day/
-  domain: gigaom.com
-  image: ""
-- curated_id: a954eb510b83485084d906347c21c9a8
-  item_date: "2013-05-09 00:00:00"
-  title: Yesterday?s downtime and today?s slowness
-  url: http://blog.freshdesk.com/yesterdays-downtime-and-todays-slowness/
-  domain: blog.freshdesk.com
-  image: ""
-- curated_id: 4dd2ea4b505bbb0304a89ff8e5cac66c
-  item_date: "2013-05-15 00:00:00"
-  title: Regarding our recent site outage
-  url: http://blog.dribbble.com/post/50490891209
-  domain: blog.dribbble.com
-  image: ""
-- curated_id: c36eaa5085b72bb4f6aa9589f0059d19
-  item_date: "2013-05-23 00:00:00"
-  title: 'ANNOUNCEMENT: Scheduled downtime for CarePass Sync API and CarePass'
-  url: https://developer.carepass.com/blog/read/ANNOUNCEMENT_Scheduled_downtime_for_CarePass_Sync_API_and_CarePass
-  domain: developer.carepass.com
-  image: ""
-- curated_id: 7dc7723a2cd7dacd07b64cf35cbe66c8
-  item_date: "2013-05-30 00:00:00"
-  title: Scheduled Maintenance, Sunday June 2nd 10am ? 12pm EST
-  url: http://www.getharvest.com/blog/2013/05/scheduled-maintenance-sunday-june-2nd-10am-12pm-est/
-  domain: www.getharvest.com
-  image: ""
-- curated_id: 1900277ef40cf0f0924df966ef22ccef
-  item_date: "2013-06-06 00:00:00"
-  title: Scheduled Downtime For Sunday, June 9, 2013
-  url: http://blog.dwolla.com/scheduled-downtime-for-sunday-june-9-2013/
-  domain: blog.dwolla.com
-  image: ""
-- curated_id: f22e7f10d2d55c21bbece9f084aed9f1
-  item_date: "2013-06-07 00:00:00"
-  title: Outage Post-Mortem ? May 30, 2013
-  url: https://www.pagerduty.com/blog/outage-post-mortem-may-30-2013/
-  domain: www.pagerduty.com
-  image: ""
-- curated_id: 33f6e83873e2ddfe879c044c40875aac
-  item_date: "2013-06-07 00:00:00"
-  title: 'Tip of the week: service level agreements'
-  url: https://www.zendesk.com/blog/tip-of-the-week-service-level-agreements
-  domain: www.zendesk.com
-  image: ""
-- curated_id: a6340abd7593f7903ca224c58d6782da
-  item_date: "2013-07-03 00:00:00"
-  title: Pingdom BeepManager now available in public beta
-  url: http://royal.pingdom.com/2013/07/03/pingdom-beepmanager-in-public-beta/
-  domain: royal.pingdom.com
-  image: ""
-- curated_id: a7a85d9abd503a04299a1d2c063a2291
-  item_date: "2014-06-10 00:00:00"
-  title: 'Urgent: Maintenance Downtime Rescheduled'
-  url: https://www.pushwoosh.com/urgent-maintenance-downtime-rescheduled/
-  domain: www.pushwoosh.com
-  image: ""
-- curated_id: 5cb122e2518e394ebc84cd49cd35b2e6
-  item_date: "2014-06-12 00:00:00"
-  title: Outage Post Mortem ? June 3rd  4th, 2014
-  url: https://www.pagerduty.com/blog/outage-post-mortem-june-3rd-4th-2014/
-  domain: www.pagerduty.com
-  image: ""
-- curated_id: f6397f820f8c7f04e3e0f59f4e89034d
-  item_date: "2014-06-14 00:00:00"
-  title: Resolved ? recent intermittent issues with Xero
-  url: https://www.xero.com/blog/2014/06/resolved-recent-intermittent-issues-xero/
-  domain: www.xero.com
-  image: ""
 - curated_id: 228ed9ee4e618904afe8016f78b535b6
   item_date: "2015-02-24 00:00:00"
   title: 'Service disruption: Xero API (resolved)'
@@ -149,17 +77,17 @@
   url: https://dzone.com/articles/ensuring-containers-are-always-running-with-docker
   domain: dzone.com
   image: ""
-- curated_id: a4d5f127d89e2d6d28289aba784863cb
-  item_date: "2016-06-10 00:00:00"
-  title: Postmortem of yesterdays downtime
-  url: http://blog.clearbit.com/postmortem-of-yesterdays-downtime/
-  domain: blog.clearbit.com
-  image: ""
 - curated_id: b0ae0c70722f334b56f3fcdc2c7c5c91
   item_date: "2016-06-10 00:00:00"
   title: Slack users report widespread service disruptions
   url: http://www.cnbc.com/2016/06/10/slack-users-report-widespread-service-disruptions.html
   domain: www.cnbc.com
+  image: ""
+- curated_id: a4d5f127d89e2d6d28289aba784863cb
+  item_date: "2016-06-10 00:00:00"
+  title: Postmortem of yesterdays downtime
+  url: http://blog.clearbit.com/postmortem-of-yesterdays-downtime/
+  domain: blog.clearbit.com
   image: ""
 - curated_id: 39cf03dadb40c0c9cf1e552e596f1089
   item_date: "2016-06-20 00:00:00"
@@ -265,17 +193,17 @@
   url: http://www.programmableweb.com/news/how-dropbox-scaled-and-secured-their-api/elsewhere-web/2016/09/24
   domain: www.programmableweb.com
   image: ""
-- curated_id: a2359bff79d71c8510340aa0e6f71596
-  item_date: "2016-09-26 00:00:00"
-  title: 'AWS and Azure: SLAs and Service Credits'
-  url: https://dzone.com/articles/aws-and-azure-slas-and-service-credits-as-of-11th
-  domain: dzone.com
-  image: ""
 - curated_id: b5a211485c6a0905d8400ebee6019a1d
   item_date: "2016-09-26 00:00:00"
   title: Recent API Issues
   url: https://fanart.tv/2016/09/recent-api-issues/
   domain: fanart.tv
+  image: ""
+- curated_id: a2359bff79d71c8510340aa0e6f71596
+  item_date: "2016-09-26 00:00:00"
+  title: 'AWS and Azure: SLAs and Service Credits'
+  url: https://dzone.com/articles/aws-and-azure-slas-and-service-credits-as-of-11th
+  domain: dzone.com
   image: ""
 - curated_id: 40b3707e23ee30128a5a6f110ec61ce9
   item_date: "2016-09-29 00:16:39"
@@ -288,5 +216,188 @@
   title: Fatal versus non-fatal errors in the IMA SDKs
   url: http://googleadsdeveloper.blogspot.com/2016/09/fatal-versus-non-fatal-errors-in-ima.html
   domain: googleadsdeveloper.blogspot.com
+  image: ""
+- curated_id: bbd7e2e7c01cde93533553e4380d0edb
+  item_date: "2017-01-17 00:00:00"
+  title: Google Drive goes down
+  url: https://techcrunch.com/2017/01/17/google-drive-goes-down/
+  domain: techcrunch.com
+  image: ""
+- curated_id: f8dafa74e34c444f5a93bf2c8682d366
+  item_date: "2017-02-03 00:00:00"
+  title: Fatigue, Spam, and Lack of Backups Take down GitLab.com
+  url: https://www.infoq.com/news/2017/02/gitlab-crash-data-loss
+  domain: www.infoq.com
+  image: ""
+- curated_id: 0999d83d8bef7253a921ce813f8cb380
+  item_date: "2017-02-08 00:00:00"
+  title: Temporary disruption in processing Order API requests (13:00-14:40)
+  url: https://developers.bol.com/nieuws/openapi/nieuws/temporary-disruption-processing-order-api-requests-1300-1440/
+  domain: developers.bol.com
+  image: ""
+- curated_id: d93d62737946b58eca4bf94158593690
+  item_date: "2017-02-10 00:00:00"
+  title: Postmortem of database outage of January 31
+  url: https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/
+  domain: about.gitlab.com
+  image: ""
+- curated_id: f34004e21c0b8fbe3c422a1c80e3aa5f
+  item_date: "2017-02-21 00:00:00"
+  title: Designing robust and predictable APIs with idempotency
+  url: https://stripe.com/blog/idempotency
+  domain: stripe.com
+  image: ""
+- curated_id: f0f252f1aa066d46442633b6d225491b
+  item_date: "2017-02-23 15:08:05"
+  title: 'Tweet: Auto-Scaling Jenkins with Kubernetes https://t.co/Wa8Yr5BVwS by @monkeylittle_'
+  url: https://twitter.com/datawireio/statuses/834902682381004803
+  domain: twitter.com
+  image: ""
+- curated_id: dbc1823aca1fd7a383ac0235a535b44c
+  item_date: "2017-02-28 10:54:15"
+  title: 'Tweet: Our documentation site is experiencing an outage. You can monitor
+    the incident here: https://t.co/Zc6d5ZCgWn'
+  url: https://twitter.com/BoxPlatform/statuses/836650742827999232
+  domain: twitter.com
+  image: ""
+- curated_id: 1e1c3d5962e2aed8afc16833b7b3a151
+  item_date: "2017-02-28 11:56:51"
+  title: 'Tweet: We continue to experience high error rates with S3 in US-East-1,
+    which is impacting some other AWS services.'
+  url: https://twitter.com/awscloud/statuses/836666493668466689
+  domain: twitter.com
+  image: ""
+- curated_id: 0bebb3cd3ba0a66698951cbea68b1c4a
+  item_date: "2017-03-01 00:00:00"
+  title: "Reviewing the Amazon outage \u2013 what we learned"
+  url: http://www.xero.com/blog/2017/03/reviewing-amazon-outage-learned/
+  domain: www.xero.com
+  image: ""
+- curated_id: 8bf9d1276765f432267e648c1f686ae4
+  item_date: "2017-03-01 00:00:00"
+  title: Yes, Cloud Is Still Safe Despite The AWS Outage - UPDATE
+  url: http://blogs.forrester.com/dave_bartoletti/17-03-01-yes_cloud_is_still_safe_despite_the_aws_outage_update
+  domain: blogs.forrester.com
+  image: ""
+- curated_id: 49ecbedc7907e18d53a895840cb115b1
+  item_date: "2017-03-01 00:00:00"
+  title: Protecting Your Apps Against the Next AWS Outage
+  url: http://blog.backand.com/protecting-against-next-aws-outage/
+  domain: blog.backand.com
+  image: ""
+- curated_id: 80a161da6f5316a6b91d5cc6897bec35
+  item_date: "2017-03-01 07:28:25"
+  title: "Tweet: Our API console is temporarily down, we#039;re working on a fix!
+    \U0001F42D\U0001F4BB"
+  url: https://twitter.com/SpotifyPlatform/statuses/836961327130214400
+  domain: twitter.com
+  image: ""
+- curated_id: 3184e94d1a1c89d6ad51094260676482
+  item_date: "2017-03-02 00:00:00"
+  title: "Aftermath of the AWS S3 Outage\u2014An Interview With Nick Kephart"
+  url: https://dzone.com/articles/aftermath-of-the-aws-s3-outagean-interview-with-ni
+  domain: dzone.com
+  image: ""
+- curated_id: 8eb18ca2b4d0158a1b9a4aca670a4c39
+  item_date: "2017-03-02 00:00:00"
+  title: Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1)
+    Region
+  url: https://aws.amazon.com/message/41926/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: 697f7a1a01252af0b09df26faa309516
+  item_date: "2017-03-02 00:00:00"
+  title: Amazon blames human error for cloud-service disruption
+  url: http://www.reuters.com/article/us-amazon-com-aws-outages-idUSKBN1692N2
+  domain: www.reuters.com
+  image: ""
+- curated_id: 54a40a355fca5dcc8ee6f12b4741bc87
+  item_date: "2017-03-02 00:00:00"
+  title: Capital One reports minor impacts from Amazon Web Service problems
+  url: https://www.americanbanker.com/news/capital-one-reports-minor-impacts-from-amazon-web-service-problems
+  domain: www.americanbanker.com
+  image: ""
+- curated_id: b2da9e590de65a0be180fb88afe39cea
+  item_date: "2017-03-03 00:00:00"
+  title: A Human Error Took AWS S3 US-EAST-1 Down
+  url: https://www.infoq.com/news/2017/03/aws-s3-disruption
+  domain: www.infoq.com
+  image: ""
+- curated_id: 6c1ad703c63551edd2dbca99715c8a52
+  item_date: "2017-03-03 00:00:00"
+  title: How to Avoid the Next AWS S3 Outage with a Failover Scenario
+  url: https://cloudrail.com/avoid-next-aws-s3-outage-failover-scenario/
+  domain: cloudrail.com
+  image: ""
+- curated_id: e64aa5887080cbc648d9b685c015afe8
+  item_date: "2017-03-10 09:38:09"
+  title: 'Tweet: In the future, even you car won#039;t work when APIs are down...
+    https://t.co/umvHO3delR'
+  url: https://twitter.com/APIScience/statuses/840255469419679744
+  domain: twitter.com
+  image: ""
+- curated_id: 7b54d52e2312585d8597eb95c98b8f53
+  item_date: "2017-03-15 00:00:00"
+  title: 'Graceful Degradation: Building Planned Failure Into Your App'
+  url: https://dzone.com/articles/graceful-degradation-building-planned-failure-into
+  domain: dzone.com
+  image: ""
+- curated_id: d7d6243353bcf65b98d5200fea9102b7
+  item_date: "2017-03-22 00:00:00"
+  title: Your APIs are Only as Good as the APIs They Depend On
+  url: http://apimetrics.io/2017/03/22/apis-good-apis-depend/
+  domain: apimetrics.io
+  image: ""
+- curated_id: a72290fc92222a20648d61663de3a0a8
+  item_date: "2017-04-05 00:00:00"
+  title: Host-Based Routing Support for AWS Application Load Balancers
+  url: https://aws.amazon.com/blogs/aws/new-host-based-routing-support-for-aws-application-load-balancers/
+  domain: aws.amazon.com
+  image: ""
+- curated_id: e7923d3295efa030772c93cde7663f8a
+  item_date: "2017-04-05 08:23:12"
+  title: 'Tweet: Marketplace - We#039;re aware of the server issue and are working
+    diligently to resolve the problem. Sorry for the inconvenience.'
+  url: https://twitter.com/mashape/statuses/849643591035043842
+  domain: twitter.com
+  image: ""
+- curated_id: a11890621e717920a1b925011ba1cc8a
+  item_date: "2017-04-05 17:07:52"
+  title: 'Tweet: Marketplace issue has been resolved. Thank you for your patience!
+    Contact marketplacesupport@mashape.com if you need anything further'
+  url: https://twitter.com/mashape/statuses/849775626441465856
+  domain: twitter.com
+  image: ""
+- curated_id: 0abc13f5e2615d80a148884fb150d941
+  item_date: "2017-04-07 00:00:00"
+  title: 'Census Data #API is Down'
+  url: http://apimetrics.io/2017/04/07/census-data-api-is-down/
+  domain: apimetrics.io
+  image: ""
+- curated_id: 6df61c5a3f14d040fb7d4634ebc2e2f6
+  item_date: "2017-04-10 06:15:19"
+  title: 'Tweet: A ten-hour API outage is a pretty serious one. A bad day for the
+    US Census Bureau. https://t.co/eAoJXADWgG'
+  url: https://twitter.com/APImetricStats/statuses/851423347447672832
+  domain: twitter.com
+  image: ""
+- curated_id: f12cc2bd8b56893d61be9e2d8d7c551e
+  item_date: "2017-05-07 00:00:00"
+  title: 8 Steps to Help Your API be Forward Compatible
+  url: https://www.programmableweb.com/news/8-steps-to-help-your-api-be-forward-compatible/elsewhere-web/2017/05/07
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 49c6c335fe4f65df2b22f044740ede6e
+  item_date: "2017-05-10 00:00:00"
+  title: How to Handle API Downtime at Scale
+  url: https://zapier.com/engineering/api-downtime/
+  domain: zapier.com
+  image: ""
+- curated_id: 8005f99ef22ac696a39970ed53b585f7
+  item_date: "2017-05-10 07:31:43"
+  title: "Tweet: @J61810352 Hey \U0001F44B Not all artist images are available via
+    the Web API, sorry."
+  url: https://twitter.com/SpotifyPlatform/statuses/862314211149578240
+  domain: twitter.com
   image: ""
 ...
