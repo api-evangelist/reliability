@@ -5,4 +5,97 @@
   url: https://tune.com/blog/startups-need-api/
   domain: tune.com
   image: ""
+- curated_id: sz+tB8pq15mq8YsF73m9QWRv2thg0IMoBqQqtUUdBd4=_15c149cf661:94d33a:2ab7028
+  item_date: "2017-05-16 21:08:52"
+  title: Why You Should Never Shut Down Your API Servers (unless you absolutely have
+    to)
+  url: https://www.apiscience.com/blog/?p=824
+  domain: www.apiscience.com
+  image: ""
+- curated_id: 53UYdSIjaP6vd+2Bz1ivn3GdkSivxwzyAAG6WfdGv7o=_15c36f22e22:2273794:cfb784e9
+  item_date: "2017-05-22 13:10:13"
+  title: Load Balancing a Dynamic Infrastructure with NGINX, Chef, and Consul
+  url: https://www.nginx.com/?p=50319
+  domain: www.nginx.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15c39670169:1c8648:ac928dde
+  item_date: "2017-05-23 12:32:47"
+  title: "What\u2019s Your Quality (ok, uptime)"
+  url: https://medium.com/p/bd11b8a95c46
+  domain: medium.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c4239b363:2eb5b16:bb404dd5
+  item_date: "2017-05-25 17:41:42"
+  title: Why you should follow the robustness principle in your APIs
+  url: https://engineering.klarna.com/why-you-should-follow-the-robustness-principle-in-your-apis-b77bd9393e4b
+  domain: engineering.klarna.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c42404778:3446b67:cfb784e9
+  item_date: "2017-05-25 17:52:45"
+  title: Robustness principle
+  url: https://www.wikiwand.com/en/Robustness_principle
+  domain: www.wikiwand.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15c5b9ce2c7:558bf7d:cfb784e9
+  item_date: "2017-05-30 15:35:15"
+  title: The 4 Golden Signals of API Health
+  url: http://info.netsil.com/golden-signals-monitoring
+  domain: info.netsil.com
+  image: ""
+- curated_id: 0VTnUfX894TcY5TA/oMFDbEY1bDrlajzsn67Jr80r8M=_15c5eaa3916:1cd208:7c63ad1c
+  item_date: "2017-05-31 06:19:24"
+  title: "GitHub\u2019s new zero downtime goal is off to a rocky start"
+  url: https://thenextweb.com/?p=1050571
+  domain: thenextweb.com
+  image: ""
+- curated_id: 4b5tCw5GvlXtruVS/z16h27znplNFRBntlQNEyTCvpo=_15c646fdcba:637f413:cfb784e9
+  item_date: "2017-06-01 09:00:11"
+  title: 'Microservices Patterns With Envoy Proxy, Part II: Timeouts and Retries'
+  url: https://developers.redhat.com/blog/?p=435598
+  domain: developers.redhat.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15c67a4707f:1f86a:17464ebe
+  item_date: "2017-06-01 09:27:11"
+  title: "Importing Historical Data from Yahoo Finance following the API Crash \u2014
+    R code"
+  url: https://medium.com/p/3e68ee03fe80
+  domain: medium.com
+  image: ""
+- curated_id: 53UYdSIjaP6vd+2Bz1ivn3GdkSivxwzyAAG6WfdGv7o=_15c6aea80b1:628d2cf:bb404dd5
+  item_date: "2017-06-02 15:22:02"
+  title: High Availability for NGINX Plus on AWS with keepalived and Elastic IP Address
+  url: https://www.nginx.com/?p=50661
+  domain: www.nginx.com
+  image: ""
+- curated_id: UjG+CeLaqj27hMBI/WjhTGNNUNvP04IJdUFt2zsPBtQ=_15caa929443:445d32:52bf19b1
+  item_date: "2017-06-15 00:00:00"
+  title: Best Practices for API Error Handling
+  url: http://nordicapis.com/?p=6675
+  domain: nordicapis.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15caee1eae8:105dab:60392a0b
+  item_date: "2017-06-15 20:06:57"
+  title: Event Hubs Auto
+  url: https://azure.microsoft.com/en-us/blog/event-hubs-auto-inflate-take-control-of-your-scale/?v=17.23h
+  domain: azure.microsoft.com
+  image: ""
+- curated_id: 53UYdSIjaP6vd+2Bz1ivn3GdkSivxwzyAAG6WfdGv7o=_15cb244ef37:67c3ff:3aab93c7
+  item_date: "2017-06-16 11:56:39"
+  title: Deploying NGINX Plus as a Highly Available AWS Load Balancer
+  url: https://www.nginx.com/?p=50727
+  domain: www.nginx.com
+  image: ""
+- curated_id: UGoT913Pj2iVsp570XrRhskqe5/o7yyV3N/NTloByRs=_15cc75bf2f4:6d5248:517b1451
+  item_date: "2017-06-20 13:59:03"
+  title: People trust Amazon with their personal data more than other major tech companies
+    (AMZN)
+  url: http://www.businessinsider.com/most-trusted-companies-keep-data-secure-chart-2017-6?utm_source=feedly&amp;utm_medium=referral
+  domain: www.businessinsider.com
+  image: ""
+- curated_id: FZ/2GLZp/a8FriFm6BqxYgMelBuYPP5oD17BctyF8kM=_15cd3e138f8:1a219bd:5b78a817
+  item_date: "2017-06-23 00:31:39"
+  title: What happened to the Yahoo Finance API?
+  url: https://medium.com/p/857c2a6abb6d
+  domain: medium.com
+  image: ""
 ...
