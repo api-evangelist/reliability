@@ -98,4 +98,10 @@
   url: https://medium.com/p/857c2a6abb6d
   domain: medium.com
   image: ""
+- curated_id: b4xX282kQ9FAxkxcTTl6litd4bsIad1WXC3AOIleGAM=_15cf59b6be2:4b24b66:5b78a817
+  item_date: "2017-06-29 13:46:37"
+  title: Service Discovery on OpenShift Using Multicast
+  url: https://blog.openshift.com/?p=12390
+  domain: blog.openshift.com
+  image: ""
 ...
