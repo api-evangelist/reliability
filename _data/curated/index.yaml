@@ -104,4 +104,16 @@
   url: https://blog.openshift.com/?p=12390
   domain: blog.openshift.com
   image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15d1ae213cd:18bc5a8:1aa8479d
+  item_date: "2017-07-06 19:24:40"
+  title: 'Shields.io: Quality metadata badges for open source projects'
+  url: http://shields.io/
+  domain: shields.io
+  image: ""
+- curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
+  item_date: "2017-07-07 13:36:43"
+  title: Introducing double opt
+  url: http://blog.statuspage.io/introducing-double-opt-in
+  domain: blog.statuspage.io
+  image: ""
 ...
