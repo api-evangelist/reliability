@@ -129,4 +129,16 @@
   url: http://principlesofchaos.org/
   domain: principlesofchaos.org
   image: ""
+- curated_id: Xne8uW/IUiZhV1EuO2ZMzIrc2Ak6NlhGjboZ+Yk0rJ8=_15d99ac624f:d5df3:6c0c5382
+  item_date: "2017-07-31 10:22:38"
+  title: "GitHub goes down \u2014 and takes developer productivity with it"
+  url: http://techcrunch.com/?p=1521398
+  domain: techcrunch.com
+  image: ""
+- curated_id: 8WqmKMFd8K7u/NGOImR541mH0lptB+6TGihQtOQyTbs=_15d9b0850a7:57bf082:9493fdce
+  item_date: "2017-07-31 15:39:00"
+  title: How CircleCI Processes 4.5 Million Builds Per Month
+  url: https://circleci.com/blog/how-circleci-processes-4-5-million-builds-per-month/
+  domain: circleci.com
+  image: ""
 ...
