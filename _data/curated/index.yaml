@@ -141,4 +141,16 @@
   url: https://circleci.com/blog/how-circleci-processes-4-5-million-builds-per-month/
   domain: circleci.com
   image: ""
+- curated_id: p9l1QRJSWsBdfQhLvEqI6rdgjdJrOWvtCS0GvuF9J1Q=_15d9ee34201:522672:218de7ce
+  item_date: "2017-08-01 10:36:04"
+  title: "Designing for Scale: Part 3\u2014Scaling Under Stress"
+  url: http://blog.newrelic.com/?p=38222
+  domain: blog.newrelic.com
+  image: ""
+- curated_id: aTKLPW9AeQAh09DpOW/0/mK2tQUNNgIyAi3xy7MVsb4=_15da07213a6:7b0d4d:bd5def64
+  item_date: "2017-08-01 17:50:48"
+  title: "ChAP: Chaos Automation Platform \u2013 Netflix TechBlog \u2013 Medium"
+  url: https://medium.com/netflix-techblog/chap-chaos-automation-platform-53e6d528371f
+  domain: medium.com
+  image: ""
 ...
