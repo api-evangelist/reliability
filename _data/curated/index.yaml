@@ -165,4 +165,40 @@
   url: https://zapier.com/engineering/api-planned-downtime/
   domain: zapier.com
   image: ""
+- curated_id: 2tK8U532T6qxpXjFF9qU2weo7mkDoaRdhNtr+Nxvykk=_15dbd2929aa:1faa6c1:ce556ce1
+  item_date: "2017-08-07 07:46:17"
+  title: 'Judge: IBM owes Indiana $78M for failed welfare automation'
+  url: http://hosted.ap.org/dynamic/stories/A/APFN_US_INDIANA_WELFARE_LAWSUIT_INOL-?SITE=AP&SECTION=HOME&TEMPLATE=DEFAULT
+  domain: hosted.ap.org
+  image: ""
+- curated_id: 57WISYgmRKJyiA6++i53BYoj9ACy3nCrzF2dbHqarcE=_15dbe620df7:21a6dc1:ce556ce1
+  item_date: "2017-08-07 13:00:00"
+  title: Why Is Getting Clean Article and Product Data So Damn Hard?
+  url: http://blog.diffbot.com/?p=863
+  domain: blog.diffbot.com
+  image: ""
+- curated_id: q2q2EWvhwTr2G72+2bmzQ5IFpAlRi9P7s4CyaWlqDGs=_15dc38b2398:2e4eea0:898d1914
+  item_date: "2017-08-08 13:30:59"
+  title: 'Beyond Google SRE: What is Site Reliability Engineering like at Medium?'
+  url: https://medium.com/p/71c65bd35f4e
+  domain: medium.com
+  image: ""
+- curated_id: 53UYdSIjaP6vd+2Bz1ivn3GdkSivxwzyAAG6WfdGv7o=_15e0c44a184:3b521c:feeb522d
+  item_date: "2017-08-22 16:25:16"
+  title: Load Balancing for NGINX Plus with WURFL InFuze
+  url: https://www.nginx.com/?p=52825
+  domain: www.nginx.com
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15e333cea9a:3936379:feeb522d
+  item_date: "2017-08-30 06:00:51"
+  title: Site Reliability Engineering Is a Kind of Magic
+  url: https://thenewstack.io/?p=2960778
+  domain: thenewstack.io
+  image: ""
+- curated_id: NsOriG9vB4UTHHc+E7z3Iq8VotxRvtvEB9fu/BpjFa4=_15e5dbabc76:7455832:feeb522d
+  item_date: "2017-09-07 11:40:42"
+  title: Mashape Proxy Outage September 7th, 2017
+  url: http://blog.rapidapi.com/?p=874
+  domain: blog.rapidapi.com
+  image: ""
 ...
