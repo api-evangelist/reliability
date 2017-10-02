@@ -201,4 +201,10 @@
   url: http://blog.rapidapi.com/?p=874
   domain: blog.rapidapi.com
   image: ""
+- curated_id: rxLnjiJudc56FbZKrZ0crrg2UUWdKV8knoKwhWKNfS4=_15ec9115f2a:3616776:e05f56c8
+  item_date: "2017-09-28 08:15:05"
+  title: Adding Resiliency to Handle Registry Outages in Codeship Pro
+  url: https://blog.codeship.com/?p=5586
+  domain: blog.codeship.com
+  image: ""
 ...
