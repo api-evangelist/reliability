@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -242,5 +242,11 @@
   title: Ensure Your Site Performs for Peak Traffic
   url: http://blog.loadimpact.com/ensure-your-site-performs-for-peak-traffic
   domain: blog.loadimpact.com
+  image: ""
+- curated_id: qQEZ7AvNCW5MO++95eG+wPiOBUdDkSnCTJkRZA9Z4ro=_15f48916485:6c8bc09:9ac85644
+  item_date: "2017-10-23 02:24:56"
+  title: Load
+  url: https://blogs.cisco.com/?p=236151
+  domain: blogs.cisco.com
   image: ""
 ...
