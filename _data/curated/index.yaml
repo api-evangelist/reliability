@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -248,5 +248,29 @@
   title: Load
   url: https://blogs.cisco.com/?p=236151
   domain: blogs.cisco.com
+  image: ""
+- curated_id: +iHpcF+MVmzqHdkw+fLKtN8U+Gs5PfZG9PfuVqz3Jqk=_15f6e167d58:10c4d4d:7157a206
+  item_date: "2017-10-30 09:00:05"
+  title: Kentik Detect for Kentik Site Reliability
+  url: https://www.kentik.com/?p=7865
+  domain: www.kentik.com
+  image: ""
+- curated_id: p9l1QRJSWsBdfQhLvEqI6rdgjdJrOWvtCS0GvuF9J1Q=_15f6e517964:11903d8:541f3c40
+  item_date: "2017-10-30 10:20:54"
+  title: The Rise of the Site Reliability Engineer
+  url: http://blog.newrelic.com/?p=39713
+  domain: blog.newrelic.com
+  image: ""
+- curated_id: xSjdJfPCkNisMpBgOt+tuQbeFffex9D91WxfhFeMbbc=_15f9229b091:146e5c:8cbd7d4f
+  item_date: "2017-11-06 01:31:01"
+  title: Applying principles of chaos engineering to AWS Lambda with latency injection
+  url: https://medium.com/p/ddeb4ff8d983
+  domain: medium.com
+  image: ""
+- curated_id: P6ZHWlrPQ5ILOZ54yDX4aZ046+AnYBvjvT3DdNFTXhQ=_15f9103f134:4e0c80:541f3c40
+  item_date: "2017-11-06 03:00:55"
+  title: How Chaos Engineering Can Bring Stability to Your Distributed Systems
+  url: https://thenewstack.io/?p=3368889
+  domain: thenewstack.io
   image: ""
 ...
