@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -272,6 +272,12 @@
   title: How Chaos Engineering Can Bring Stability to Your Distributed Systems
   url: https://thenewstack.io/?p=3368889
   domain: thenewstack.io
+  image: ""
+- curated_id: C3F90FsKoCDiHbSaXJU7AQJQ8cndB0yGWwGLZJDlWxM=_1600217fbec:32f164:3c0bb656
+  item_date: "2017-11-28 01:56:10"
+  title: Destiny 2 API Not Working Correctly
+  url: https://mmoexaminer.com/destiny-2-api-not-working-correctly/
+  domain: mmoexaminer.com
   image: ""
 - curated_id: 53UYdSIjaP6vd+2Bz1ivn3GdkSivxwzyAAG6WfdGv7o=_16004fa6b75:4d8fe:3c0bb656
   item_date: "2017-11-28 15:06:21"
