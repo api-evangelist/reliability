@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -284,5 +284,11 @@
   title: Local and Global Server Load Balancing with NGINX Plus and Cedexis
   url: https://www.nginx.com/?p=54961
   domain: www.nginx.com
+  image: ""
+- curated_id: ctQxj818xbBhHEFyLu7YdnnqpJkfUeYDSZhAjGqqRko=_1602c5c9bd9:3dd50e0:7157a206
+  item_date: "2017-12-06 06:57:57"
+  title: 'Going SLO: Service Level Agreements and Service Level Objectives'
+  url: http://apimetrics.io/?p=4163
+  domain: apimetrics.io
   image: ""
 ...
