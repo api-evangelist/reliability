@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -296,5 +296,23 @@
   title: Outages & Transparency
   url: https://medium.com/p/7372097bfd85
   domain: medium.com
+  image: ""
+- curated_id: HKwklz9a1LBDBgbulnG916dFzLOZO3KlGWN+5YbUEE4=_1604c9b52c5:2fa98ca:3c0bb656
+  item_date: "2017-12-12 08:52:49"
+  title: Bitcoin exchanges suffer outages
+  url: https://www.ft.com/content/062e5d62-7f31-392e-a571-221e5e6f09fd
+  domain: www.ft.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16081ffee33:a76300:541f3c40
+  item_date: "2017-12-22 22:02:12"
+  title: The Pros and Cons of Database Scaling Options
+  url: https://dzone.com/articles/1895405
+  domain: dzone.com
+  image: ""
+- curated_id: xwisz6ZyxTVQZF9ECim7wa+q4F1sMWUZt/heMa4JVws=_16082d63d4d:b9f4ad:541f3c40
+  item_date: "2017-12-23 02:01:00"
+  title: Network Reliability Engineering in 2018
+  url: https://dzone.com/articles/1917927
+  domain: dzone.com
   image: ""
 ...
