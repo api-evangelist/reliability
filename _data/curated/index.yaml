@@ -113,13 +113,13 @@
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: http://blog.statuspage.io/introducing-double-opt-in
+  url: https://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: c24X2gDoRR+DpWQZwQhYKpS0pfQ6Fe5ZPXToM855EG4=_15d1ec4db23:42dbde:5b78a817
   item_date: "2017-07-07 13:36:43"
   title: Introducing double opt
-  url: https://blog.statuspage.io/introducing-double-opt-in
+  url: http://blog.statuspage.io/introducing-double-opt-in
   domain: blog.statuspage.io
   image: ""
 - curated_id: dnRmB76fym4hkmgsXBwtmLKNUV3FwG/JzTfREvhE440=_15d27218a32:899050:32bbcd87
@@ -314,5 +314,11 @@
   title: Network Reliability Engineering in 2018
   url: https://dzone.com/articles/1917927
   domain: dzone.com
+  image: ""
+- curated_id: 3sOkcm6yz7RzahZqjgGz802Mh9gdTaNECiKVxsvA9Ss=_16105d4afd0:4880d3b:541f3c40
+  item_date: "2018-01-17 09:55:39"
+  title: What Breaks APIs?
+  url: http://www.i-programmer.info/news/231-methodology/11473-what-breaks-apis.html
+  domain: www.i-programmer.info
   image: ""
 ...
