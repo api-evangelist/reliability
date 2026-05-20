@@ -1,0 +1,19 @@
+{
+  "name": "Checkout API Availability",
+  "description": "Tracks the availability of the checkout API as observed by customers, measured as the ratio of non-5xx HTTP responses to total requests.",
+  "service": "checkout-api",
+  "indicator": {
+    "type": "availability",
+    "metric_source": "prometheus",
+    "good_query": "sum(rate(http_requests_total{service=\"checkout\",code!~\"5..\"}[5m]))",
+    "total_query": "sum(rate(http_requests_total{service=\"checkout\"}[5m]))"
+  },
+  "target": 0.999,
+  "window": "28d",
+  "error_budget": {
+    "remaining": 0.72,
+    "burn_rate": 1.3
+  },
+  "owner": "checkout-team",
+  "tags": ["customer-facing", "tier-1", "checkout"]
+}

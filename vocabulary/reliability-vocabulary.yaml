@@ -1,0 +1,319 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Reliability
+  description: Vocabulary for the reliability topic, covering SRE, service level objectives, error budgets, chaos engineering, resilience testing, on-call, and incident response.
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Nobl9 SLO Platform
+      namespace: nobl9
+      status: active
+    - name: Gremlin Chaos Engineering
+      namespace: gremlin
+      status: active
+    - name: Chaos Mesh
+      namespace: chaos-mesh
+      status: active
+    - name: PagerDuty Incident Response
+      namespace: pagerduty
+      status: active
+    - name: Incident.io
+      namespace: incident-io
+      status: active
+    - name: FireHydrant
+      namespace: firehydrant
+      status: active
+    - name: OpsLevel Service Standards
+      namespace: opslevel
+      status: active
+
+  resources:
+    - name: slos
+      description: Service level objectives defining reliability targets for services
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: error-budgets
+      description: Remaining error budget for an SLO over its evaluation window
+      actions:
+        - list
+        - get
+    - name: chaos-experiments
+      description: Chaos engineering experiments that inject controlled faults into systems
+      actions:
+        - list
+        - get
+        - create
+        - run
+        - halt
+        - delete
+    - name: incidents
+      description: Active or historical incidents tracked by an incident response platform
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - resolve
+    - name: on-call-schedules
+      description: On-call rotation schedules and overrides
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+    - name: runbooks
+      description: Documented or executable response procedures linked to services and incidents
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - run
+    - name: status-pages
+      description: Customer-facing status pages and incident updates
+      actions:
+        - list
+        - get
+        - create
+        - update
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Create a new resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: run
+      description: Execute a chaos experiment or runbook
+      httpMethod: POST
+      pattern: execute
+    - name: halt
+      description: Immediately stop a running chaos experiment
+      httpMethod: POST
+      pattern: control
+    - name: resolve
+      description: Mark an incident as resolved
+      httpMethod: POST
+      pattern: state-transition
+
+  schemas:
+    core:
+      - name: ServiceLevelObjective
+        description: A reliability target for a service level indicator over a time window
+        properties:
+          - name
+          - service
+          - indicator
+          - target
+          - window
+          - error_budget
+          - owner
+      - name: ChaosExperiment
+        description: An intentional failure injection into a target system with halt conditions
+        properties:
+          - name
+          - hypothesis
+          - fault_type
+          - target
+          - parameters
+          - halt_conditions
+          - environment
+          - status
+
+  enums:
+    sli_types:
+      - availability
+      - latency
+      - throughput
+      - error_rate
+      - freshness
+      - correctness
+    fault_types:
+      - network_latency
+      - network_loss
+      - network_partition
+      - cpu_stress
+      - memory_stress
+      - disk_stress
+      - io_stress
+      - process_kill
+      - pod_kill
+      - container_kill
+      - shutdown
+      - dependency_failure
+      - dns_failure
+      - time_skew
+    incident_severities:
+      - sev1
+      - sev2
+      - sev3
+      - sev4
+      - sev5
+    environments:
+      - dev
+      - staging
+      - pre-prod
+      - production
+
+capability:
+  workflows:
+    - name: Define and Track SLO
+      description: Create a service level objective for a service, wire it to an SLI from observability, and track error budget burn
+      apis:
+        - nobl9
+        - chronosphere
+        - lightstep
+      personas:
+        - Site Reliability Engineer
+      domains:
+        - SLO Management
+    - name: Run Chaos Experiment
+      description: Author a chaos hypothesis, target a scope, run a fault injection with halt conditions, and analyze results
+      apis:
+        - gremlin
+        - chaos-mesh
+        - litmus
+        - amazon-fault-injection-simulator
+      personas:
+        - Resilience Engineer
+      domains:
+        - Chaos Engineering
+    - name: Respond to Incident
+      description: Page on-call, open an incident, coordinate response in chat, and capture the timeline
+      apis:
+        - pagerduty
+        - incident-io
+        - firehydrant
+        - rootly
+      personas:
+        - Incident Commander
+        - On-Call Engineer
+      domains:
+        - Incident Response
+    - name: Manage On-Call Rotation
+      description: Define rotation schedules, overrides, and escalation policies across a team or organization
+      apis:
+        - pagerduty
+        - opsgenie
+        - squadcast
+        - zenduty
+      personas:
+        - Engineering Manager
+      domains:
+        - On-Call Management
+    - name: Score Services Against Reliability Standards
+      description: Track ownership, SLO coverage, on-call assignment, and runbook completeness against organizational reliability standards
+      apis:
+        - opslevel
+        - cortex
+      personas:
+        - Platform Engineer
+      domains:
+        - Service Standards
+
+  personas:
+    - id: site-reliability-engineer
+      name: Site Reliability Engineer
+      description: Engineers who define reliability targets, manage error budgets, and improve service resilience
+      workflows:
+        - Define and Track SLO
+    - id: resilience-engineer
+      name: Resilience Engineer
+      description: Engineers who design and run chaos experiments to validate system resilience
+      workflows:
+        - Run Chaos Experiment
+    - id: incident-commander
+      name: Incident Commander
+      description: Engineers who coordinate response during active incidents
+      workflows:
+        - Respond to Incident
+    - id: on-call-engineer
+      name: On-Call Engineer
+      description: Engineers carrying the pager for a service or product
+      workflows:
+        - Respond to Incident
+        - Manage On-Call Rotation
+    - id: engineering-manager
+      name: Engineering Manager
+      description: Managers responsible for on-call health and rotation fairness
+      workflows:
+        - Manage On-Call Rotation
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers running internal developer platforms and service catalogs
+      workflows:
+        - Score Services Against Reliability Standards
+
+  domains:
+    - name: SLO Management
+      description: Defining, measuring, and policing service level objectives and error budgets
+    - name: Chaos Engineering
+      description: Intentionally injecting failure to validate resilience and uncover weaknesses
+    - name: Incident Response
+      description: Coordinating response to active reliability incidents across teams
+    - name: On-Call Management
+      description: Managing rotation schedules, escalation policies, and on-call health
+    - name: Service Standards
+      description: Tracking adherence to organizational reliability standards across services
+
+crossReference:
+  - resource: slos
+    operations:
+      - create
+      - get
+      - update
+    workflows:
+      - Define and Track SLO
+    personas:
+      - Site Reliability Engineer
+  - resource: chaos-experiments
+    operations:
+      - create
+      - run
+      - halt
+    workflows:
+      - Run Chaos Experiment
+    personas:
+      - Resilience Engineer
+  - resource: incidents
+    operations:
+      - create
+      - update
+      - resolve
+    workflows:
+      - Respond to Incident
+    personas:
+      - Incident Commander
+      - On-Call Engineer
+  - resource: on-call-schedules
+    operations:
+      - create
+      - update
+      - get
+    workflows:
+      - Manage On-Call Rotation
+    personas:
+      - Engineering Manager

@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/reliability/refs/heads/main/json-schema/reliability-slo-schema.json",
+  "title": "ServiceLevelObjective",
+  "description": "A service level objective (SLO) that sets a target for a service level indicator (SLI) over a rolling time window, paired with an error budget that tracks remaining tolerance for unreliability.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the SLO.",
+      "example": "Checkout API Availability"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of what this SLO measures and why it matters.",
+      "example": "Tracks the availability of the checkout API as observed by customers, measured as the ratio of successful HTTP responses to total requests."
+    },
+    "service": {
+      "type": "string",
+      "description": "Service or component this SLO applies to.",
+      "example": "checkout-api"
+    },
+    "indicator": {
+      "type": "object",
+      "description": "The service level indicator (SLI) that this SLO targets.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["availability", "latency", "throughput", "error_rate", "freshness", "correctness"],
+          "example": "availability"
+        },
+        "metric_source": {
+          "type": "string",
+          "description": "Source of the underlying metric (e.g. Prometheus, Datadog, New Relic).",
+          "example": "prometheus"
+        },
+        "good_query": {
+          "type": "string",
+          "description": "Query or expression that returns the count of good events.",
+          "example": "sum(rate(http_requests_total{service=\"checkout\",code!~\"5..\"}[5m]))"
+        },
+        "total_query": {
+          "type": "string",
+          "description": "Query or expression that returns the count of total valid events.",
+          "example": "sum(rate(http_requests_total{service=\"checkout\"}[5m]))"
+        }
+      }
+    },
+    "target": {
+      "type": "number",
+      "description": "Target ratio for the SLI, expressed as a value between 0 and 1.",
+      "minimum": 0,
+      "maximum": 1,
+      "example": 0.999
+    },
+    "window": {
+      "type": "string",
+      "description": "Rolling time window over which the SLO is evaluated.",
+      "enum": ["1d", "7d", "28d", "30d", "90d"],
+      "example": "28d"
+    },
+    "error_budget": {
+      "type": "object",
+      "description": "Error budget derived from the target and window.",
+      "properties": {
+        "remaining": {
+          "type": "number",
+          "description": "Fraction of error budget remaining in the current window, between 0 and 1.",
+          "example": 0.72
+        },
+        "burn_rate": {
+          "type": "number",
+          "description": "Current burn rate as a multiple of the sustainable consumption rate.",
+          "example": 1.3
+        }
+      }
+    },
+    "owner": {
+      "type": "string",
+      "description": "Team or person that owns this SLO.",
+      "example": "checkout-team"
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags categorizing this SLO.",
+      "items": { "type": "string" },
+      "example": ["customer-facing", "tier-1", "checkout"]
+    }
+  },
+  "required": ["name", "service", "indicator", "target", "window"]
+}

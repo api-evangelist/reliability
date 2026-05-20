@@ -1,0 +1,30 @@
+{
+  "name": "Checkout API survives 50% packet loss to payments dependency",
+  "description": "Validates that the checkout API gracefully degrades and triggers the cached-pricing fallback when the payments dependency experiences high packet loss.",
+  "hypothesis": "Checkout API success rate remains above 99% when payments service experiences 50% packet loss for 5 minutes.",
+  "fault_type": "network_loss",
+  "target": {
+    "kind": "pod",
+    "selector": "app=payments,env=staging",
+    "percentage": 25
+  },
+  "parameters": {
+    "loss_percent": 50,
+    "duration": "5m"
+  },
+  "halt_conditions": [
+    {
+      "metric": "checkout_success_rate",
+      "operator": "lt",
+      "threshold": 0.95
+    },
+    {
+      "metric": "checkout_p99_latency_ms",
+      "operator": "gt",
+      "threshold": 3000
+    }
+  ],
+  "environment": "staging",
+  "status": "completed",
+  "owner": "platform-resilience"
+}

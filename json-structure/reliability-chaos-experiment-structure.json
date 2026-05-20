@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/reliability/refs/heads/main/json-structure/reliability-chaos-experiment-structure.json",
+  "name": "ChaosExperiment",
+  "description": "A chaos engineering experiment that intentionally injects a failure mode into a target system to validate resilience, with explicit hypothesis, scope, and halt conditions to bound blast radius.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the chaos experiment.",
+      "example": "Checkout API survives 50% packet loss to payments dependency"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the experiment and what it validates.",
+      "example": "Validates that the checkout API gracefully degrades when payments experiences packet loss."
+    },
+    "hypothesis": {
+      "type": "string",
+      "description": "Steady-state hypothesis the experiment intends to validate.",
+      "example": "Checkout API success rate remains above 99% when payments experiences 50% packet loss."
+    },
+    "fault_type": {
+      "type": "string",
+      "description": "Category of fault being injected.",
+      "enum": [
+        "network_latency",
+        "network_loss",
+        "network_partition",
+        "cpu_stress",
+        "memory_stress",
+        "disk_stress",
+        "io_stress",
+        "process_kill",
+        "pod_kill",
+        "container_kill",
+        "shutdown",
+        "dependency_failure",
+        "dns_failure",
+        "time_skew"
+      ],
+      "example": "network_loss"
+    },
+    "target": {
+      "type": "object",
+      "description": "Target of the fault injection.",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "service",
+            "pod",
+            "node",
+            "container",
+            "host",
+            "instance",
+            "namespace",
+            "region"
+          ],
+          "example": "pod"
+        },
+        "selector": {
+          "type": "string",
+          "description": "Selector expression identifying the target resources.",
+          "example": "app=payments,env=staging"
+        },
+        "percentage": {
+          "type": "int32",
+          "description": "Percentage of matching targets to affect.",
+          "example": 25
+        }
+      },
+      "required": [
+        "kind",
+        "selector"
+      ]
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Parameters specific to the fault type.",
+      "additionalProperties": true,
+      "example": {
+        "loss_percent": 50,
+        "duration": "5m"
+      }
+    },
+    "halt_conditions": {
+      "type": "array",
+      "description": "Conditions that, when met, immediately stop the experiment.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "metric": {
+            "type": "string",
+            "example": "checkout_success_rate"
+          },
+          "operator": {
+            "type": "string",
+            "enum": [
+              "lt",
+              "lte",
+              "gt",
+              "gte",
+              "eq"
+            ],
+            "example": "lt"
+          },
+          "threshold": {
+            "type": "number",
+            "example": 0.95
+          }
+        }
+      }
+    },
+    "environment": {
+      "type": "string",
+      "description": "Environment in which the experiment runs.",
+      "enum": [
+        "dev",
+        "staging",
+        "pre-prod",
+        "production"
+      ],
+      "example": "staging"
+    },
+    "status": {
+      "type": "string",
+      "description": "Current status of the experiment.",
+      "enum": [
+        "draft",
+        "scheduled",
+        "running",
+        "halted",
+        "completed",
+        "failed"
+      ],
+      "example": "completed"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Team or person responsible for the experiment.",
+      "example": "platform-resilience"
+    }
+  },
+  "required": [
+    "name",
+    "fault_type",
+    "target",
+    "environment"
+  ]
+}

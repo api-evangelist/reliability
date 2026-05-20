@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "rel": "https://api-evangelist.github.io/reliability/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "ServiceLevelObjective": "rel:ServiceLevelObjective",
+    "ServiceLevelIndicator": "rel:ServiceLevelIndicator",
+    "ErrorBudget": "rel:ErrorBudget",
+    "ChaosExperiment": "rel:ChaosExperiment",
+    "Incident": "rel:Incident",
+    "Runbook": "rel:Runbook",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "owner": "schema:author",
+    "service": {
+      "@id": "rel:service",
+      "@type": "xsd:string"
+    },
+    "indicator": {
+      "@id": "rel:indicator",
+      "@type": "@id"
+    },
+    "target": {
+      "@id": "rel:target",
+      "@type": "xsd:decimal"
+    },
+    "window": {
+      "@id": "rel:window",
+      "@type": "xsd:string"
+    },
+    "error_budget": {
+      "@id": "rel:error_budget",
+      "@type": "@id"
+    },
+    "remaining": {
+      "@id": "rel:remaining",
+      "@type": "xsd:decimal"
+    },
+    "burn_rate": {
+      "@id": "rel:burn_rate",
+      "@type": "xsd:decimal"
+    },
+    "hypothesis": {
+      "@id": "rel:hypothesis",
+      "@type": "xsd:string"
+    },
+    "fault_type": {
+      "@id": "rel:fault_type",
+      "@type": "xsd:string"
+    },
+    "halt_conditions": {
+      "@id": "rel:halt_conditions",
+      "@container": "@set"
+    },
+    "environment": {
+      "@id": "rel:environment",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "rel:status",
+      "@type": "xsd:string"
+    },
+    "severity": {
+      "@id": "rel:severity",
+      "@type": "xsd:string"
+    },
+    "started_at": {
+      "@id": "schema:startDate",
+      "@type": "xsd:dateTime"
+    },
+    "resolved_at": {
+      "@id": "schema:endDate",
+      "@type": "xsd:dateTime"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}
