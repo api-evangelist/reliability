@@ -1,0 +1,25 @@
+title: Reliability
+description: An index and topic collection covering site reliability engineering (SRE),
+  reliability platforms, service level objectives (SLOs), error budgets, chaos engineering,
+  resilience testing, and incident response. Reliability platforms help teams define
+  and measure reliability targets, intentionally inject failure to validate resilience,
+  manage on-call rotations and alerting, coordinate incident response, and run blameless
+  post-incident reviews. This collection includes SLO management platforms like Nobl9
+  and Chronosphere, chaos engineering tools like Gremlin, Chaos Mesh, Litmus, and
+  AWS Fault Injection Simulator, internal developer platforms with reliability scoring
+  like OpsLevel and Cortex, and incident response platforms like PagerDuty, OpsGenie,
+  Incident.io, FireHydrant, Rootly, Blameless, Squadcast, and Zenduty.
+url: https://reliability.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary

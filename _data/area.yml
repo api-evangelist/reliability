@@ -1,0 +1,195 @@
+meta:
+  name: Reliability
+  description: An index and topic collection covering site reliability engineering
+    (SRE), reliability platforms, service level objectives (SLOs), error budgets,
+    chaos engineering, resilience testing, and incident response. Reliability platforms
+    help teams define and measure reliability targets, intentionally inject failure
+    to validate resilience, manage on-call rotations and alerting, coordinate incident
+    response, and run blameless post-incident reviews. This collection includes SLO
+    management platforms like Nobl9 and Chronosphere, chaos engineering tools like
+    Gremlin, Chaos Mesh, Litmus, and AWS Fault Injection Simulator, internal developer
+    platforms with reliability scoring like OpsLevel and Cortex, and incident response
+    platforms like PagerDuty, OpsGenie, Incident.io, FireHydrant, Rootly, Blameless,
+    Squadcast, and Zenduty.
+  tags:
+  - SRE
+  - Reliability
+  - SLO
+  - Chaos Engineering
+  - Incident Response
+  - Error Budget
+  - On-Call
+  - Resilience
+  portal: https://apievangelist.com
+  github: https://github.com/api-evangelist
+  repo: reliability
+services_tools:
+- name: Amazon Fault Injection Simulator
+  repo: https://github.com/api-evangelist/amazon-fault-injection-simulator
+  apisio: https://providers.apis.io/providers/amazon-fault-injection-simulator/
+- name: Better Stack
+  repo: https://github.com/api-evangelist/betterstack
+  apisio: https://providers.apis.io/providers/betterstack/
+- name: Blameless
+  repo: https://github.com/api-evangelist/blameless
+  apisio: https://providers.apis.io/providers/blameless/
+- name: Chaos Mesh
+  repo: https://github.com/api-evangelist/chaos-mesh
+  apisio: https://providers.apis.io/providers/chaos-mesh/
+- name: Chronosphere
+  repo: https://github.com/api-evangelist/chronosphere
+  apisio: https://providers.apis.io/providers/chronosphere/
+- name: Cortex
+  repo: https://github.com/api-evangelist/cortex
+  apisio: https://providers.apis.io/providers/cortex/
+- name: FireHydrant
+  repo: https://github.com/api-evangelist/firehydrant
+  apisio: https://providers.apis.io/providers/firehydrant/
+- name: Gremlin
+  repo: https://github.com/api-evangelist/gremlin
+  apisio: https://providers.apis.io/providers/gremlin/
+- name: Harness
+  repo: https://github.com/api-evangelist/harness
+  apisio: https://providers.apis.io/providers/harness/
+- name: Incident.io
+  repo: https://github.com/api-evangelist/incident-io
+  apisio: https://providers.apis.io/providers/incident-io/
+- name: Lightstep
+  repo: https://github.com/api-evangelist/lightstep
+  apisio: https://providers.apis.io/providers/lightstep/
+- name: Litmus
+  repo: https://github.com/api-evangelist/litmus
+  apisio: https://providers.apis.io/providers/litmus/
+- name: Moogsoft
+  repo: https://github.com/api-evangelist/moogsoft
+  apisio: https://providers.apis.io/providers/moogsoft/
+- name: Nobl9
+  repo: https://github.com/api-evangelist/nobl9
+  apisio: https://providers.apis.io/providers/nobl9/
+- name: OneUptime
+  repo: https://github.com/api-evangelist/oneuptime
+  apisio: https://providers.apis.io/providers/oneuptime/
+- name: OpsGenie
+  repo: https://github.com/api-evangelist/opsgenie
+  apisio: https://providers.apis.io/providers/opsgenie/
+- name: OpsLevel
+  repo: https://github.com/api-evangelist/opslevel
+  apisio: https://providers.apis.io/providers/opslevel/
+- name: PagerDuty
+  repo: https://github.com/api-evangelist/pagerduty
+  apisio: https://providers.apis.io/providers/pagerduty/
+- name: Rootly
+  repo: https://github.com/api-evangelist/rootly
+  apisio: https://providers.apis.io/providers/rootly/
+- name: SIGNL4
+  repo: https://github.com/api-evangelist/signl4
+  apisio: https://providers.apis.io/providers/signl4/
+- name: Splunk On-Call (VictorOps)
+  repo: https://github.com/api-evangelist/victorops
+  apisio: https://providers.apis.io/providers/victorops/
+- name: Squadcast
+  repo: https://github.com/api-evangelist/squadcast
+  apisio: https://providers.apis.io/providers/squadcast/
+- name: Statuspage
+  repo: https://github.com/api-evangelist/statuspage
+  apisio: https://providers.apis.io/providers/statuspage/
+- name: xMatters
+  repo: https://github.com/api-evangelist/xmatters
+  apisio: https://providers.apis.io/providers/xmatters/
+- name: Zenduty
+  repo: https://github.com/api-evangelist/zenduty
+  apisio: https://providers.apis.io/providers/zenduty/
+features:
+- name: Service Level Objectives and Error Budgets
+  description: Reliability platforms like Nobl9, Chronosphere, and OpenSLO let teams
+    define service level indicators (SLIs), set service level objectives (SLOs), and
+    track error budgets to balance reliability work against feature delivery.
+- name: Chaos Engineering and Fault Injection
+  description: Chaos engineering tools like Gremlin, Chaos Mesh, Litmus, and AWS Fault
+    Injection Simulator deliberately inject failures into systems to validate resilience
+    and uncover hidden weaknesses before they cause incidents.
+- name: Incident Response and On-Call Orchestration
+  description: Incident response platforms like PagerDuty, OpsGenie, Incident.io,
+    FireHydrant, and Rootly orchestrate on-call rotations, alert routing, escalation
+    policies, and incident war rooms across distributed teams.
+- name: Runbook Automation and Response Workflows
+  description: Reliability platforms automate runbooks and response workflows that
+    trigger on incidents, capture context from connected systems, and guide responders
+    through remediation steps.
+- name: Blast Radius Reduction and Safety Controls
+  description: Chaos and incident tools include safeguards such as halt conditions,
+    scope limits, and automated rollback to contain the blast radius of experiments
+    and incidents.
+- name: Blameless Post-Incident Reviews
+  description: Platforms like Blameless, Jeli, and FireHydrant structure post-incident
+    analysis to extract learning without assigning blame, capturing timelines, contributing
+    factors, and follow-up actions.
+- name: Service Standards and Reliability Scoring
+  description: Internal developer platforms like OpsLevel and Cortex score services
+    against reliability standards such as ownership, on-call coverage, SLO adoption,
+    and runbook completeness.
+- name: Status Pages and Customer Communication
+  description: Status page platforms like Statuspage, Better Stack, and OneUptime
+    communicate incident state and maintenance windows to customers and stakeholders
+    in real time.
+use_cases:
+- name: SLO-Based Alerting
+  description: Replace threshold alerts with SLO burn-rate alerts that fire only when
+    error budget is being consumed faster than sustainable, reducing alert fatigue
+    while preserving signal.
+- name: Pre-Production Resilience Testing
+  description: Teams use Gremlin, Chaos Mesh, or AWS Fault Injection Simulator in
+    staging environments to validate retries, timeouts, circuit breakers, and failover
+    before production deploys.
+- name: Game Days and Continuous Verification
+  description: SRE teams run scheduled game days and continuous chaos experiments
+    to verify that documented runbooks, alerting, and failover behavior still work
+    as systems evolve.
+- name: Incident Coordination at Scale
+  description: PagerDuty, Incident.io, and FireHydrant coordinate large incidents
+    across multiple teams with auto-created Slack channels, scribes, roles, and timeline
+    capture.
+- name: Error Budget Policy Enforcement
+  description: When a service exhausts its error budget, automated policies in Nobl9
+    or Chronosphere can freeze deploys, page leadership, or trigger reliability investment
+    until the budget recovers.
+- name: On-Call Schedule Management
+  description: Platforms like PagerDuty, OpsGenie, and Squadcast manage rotation schedules,
+    overrides, and escalation policies across global teams, with integrations into
+    chat and ticketing tools.
+- name: Service Catalog and Reliability Standards
+  description: OpsLevel, Cortex, and Backstage track service ownership, tier, and
+    adherence to reliability standards like SLO coverage, on-call defined, and runbooks
+    linked.
+- name: Customer-Facing Status Communication
+  description: Statuspage, Better Stack, and OneUptime provide hosted status pages
+    that publish incident updates, scheduled maintenance, and component health to
+    customers and subscribers.
+integrations:
+- name: Nobl9
+  description: SLO platform that consolidates SLIs from Prometheus, Datadog, New Relic,
+    and other observability sources into managed service level objectives with error
+    budget tracking.
+- name: Gremlin
+  description: Chaos engineering platform for safely injecting CPU, memory, network,
+    and dependency failures into production and staging systems with built-in halt
+    conditions.
+- name: PagerDuty
+  description: Incident response and on-call platform with rotation scheduling, escalation
+    policies, event intelligence, and a broad integration ecosystem.
+- name: Incident.io
+  description: Slack-native incident response platform that automates channel creation,
+    roles, comms, and post-mortems for engineering teams.
+- name: FireHydrant
+  description: Incident management platform combining runbooks, retrospectives, status
+    pages, and service catalog for reliability programs.
+- name: Chaos Mesh
+  description: Open-source CNCF chaos engineering platform for Kubernetes that injects
+    pod, network, IO, and time faults via custom resources.
+- name: OpsLevel
+  description: Internal developer portal that tracks service ownership and scores
+    services against reliability standards such as SLOs defined, on-call set, and
+    runbooks linked.
+- name: Statuspage
+  description: Hosted status page platform from Atlassian for communicating incidents,
+    maintenance, and component health to customers.
