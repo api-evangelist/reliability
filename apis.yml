@@ -7,7 +7,7 @@ description: >-
   Fault Injection Simulator, internal developer platforms with reliability scoring like OpsLevel and Cortex, and incident response platforms like PagerDuty, OpsGenie, Incident.io, FireHydrant, Rootly,
   Blameless, Squadcast, and Zenduty.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - SRE
 - Reliability
