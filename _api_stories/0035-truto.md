@@ -1,7 +1,7 @@
 ---
-title: 'Transform Code & MCP Examples: A Hands-On Engineering Guide for SaaS APIs'
-link: https://truto.one/blog/hands-on-engineering-guide-transform-code-mcp-examples-for-saas/
-published: '2026-05-27'
+title: 'Connect Vapi to ChatGPT: Manage Assistants, Squads, and Calls via MCP'
+link: https://truto.one/blog/connect-vapi-to-chatgpt-manage-assistants-squads-and-calls/
+published: '2026-06-23'
 provider: truto
 repo: https://github.com/api-evangelist/truto
 domain: truto.one
