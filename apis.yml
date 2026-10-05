@@ -1,5 +1,6 @@
 aid: reliability
 name: Reliability
+kind: topic
 description: >-
   An index and topic collection covering site reliability engineering (SRE), reliability platforms, service level objectives (SLOs), error budgets, chaos engineering, resilience testing, and incident
   response. Reliability platforms help teams define and measure reliability targets, intentionally inject failure to validate resilience, manage on-call rotations and alerting, coordinate incident
