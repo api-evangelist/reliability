@@ -1,8 +1,8 @@
 ---
-title: 'Your IDP Is an AI Goldmine: How Internal Developer Platforms Enable Context
-  Engineering'
-link: https://roadie.io/blog/idp-ai-goldmine-context-engineering/
-published: '2026-03-19'
+title: 'The Context Engineering Checklist: 15 Questions to Ask Before Choosing an
+  AI-Powered Developer Platform'
+link: https://roadie.io/blog/context-engineering-checklist-ai-developer-platform/
+published: '2026-05-27'
 provider: roadie-io
 repo: https://github.com/api-evangelist/roadie-io
 domain: roadie.io
